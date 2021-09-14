@@ -10,7 +10,7 @@ namespace _20210914
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("kecske");
+            Console.WriteLine("kecske1");
         }
     }
 }
