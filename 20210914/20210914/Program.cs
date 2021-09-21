@@ -12,13 +12,15 @@ namespace _20210914
 
 
         {
-            feladat1();
+            //feladat1();
+            //feladat2();
+            feladat3();
 
-            Console.WriteLine("enter");
+            Console.WriteLine("Lépjen ki! A program már nem üzemképes!");
             Console.ReadLine();
         }
         static void feladat1()
-            {
+        {
 
             Console.Write("Adj meg egy számot!");
             Double szam = Convert.ToDouble(Console.ReadLine());
@@ -32,6 +34,38 @@ namespace _20210914
                 Console.WriteLine(" A(z) {0} szám páratlan", szam);
             }
         }
-
+        static void feladat2()
+        {
+            Console.Write("Adj meg egy számot!");
+            Double jel = Convert.ToDouble(Console.ReadLine());
+            Console.Clear();
+            int np = 0;
+            if (np >= 0)
+            {
+                Console.WriteLine("A szám pozitív");
+            }
+            else
+            {
+                Console.WriteLine("A szám negatív vagy nulla");
+            }
+            Console.ReadLine();
+        }
+        static void feladat3()
+        {
+            Console.WriteLine("Add meg a kinti hőmérsékletet! (˙C)");
+            Double homerseklet = Convert.ToDouble(Console.ReadLine());
+            Console.Clear();
+            int celsius = 0;
+            if (celsius > 0)
+            {
+                Console.WriteLine("Jó az idő gyerekek! Irány az utca!!!! ;)");
+            }
+            else
+            {
+                Console.WriteLine("Fagypont alá csökkent a hőmérséklet!");
+            }
+        }
     }
 }
+
+
