@@ -9,19 +9,29 @@ namespace _20210914
     class Program
     {
         static void Main(string[] args)
+
+
         {
-            Console.WriteLine("Adj meg egy számot!");
-            int szam = Console.Read();
-            szam = Int32.Parse(Console.ReadLine());
+            feladat1();
+
+            Console.WriteLine("enter");
+            Console.ReadLine();
+        }
+        static void feladat1()
+            {
+
+            Console.Write("Adj meg egy számot!");
+            Double szam = Convert.ToDouble(Console.ReadLine());
+            Console.Clear();
             if (szam % 2 == 0)
             {
-                Console.WriteLine("Páros");
+                Console.WriteLine(" A(z) {0} szám páros", szam);
             }
             else
             {
-                Console.WriteLine("Páratlan");
-                
+                Console.WriteLine(" A(z) {0} szám páratlan", szam);
             }
         }
+
     }
 }
