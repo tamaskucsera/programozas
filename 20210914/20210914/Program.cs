@@ -10,7 +10,18 @@ namespace _20210914
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("kecske1");
+            Console.WriteLine("Adj meg egy számot!");
+            int szam = Console.Read();
+            szam = Int32.Parse(Console.ReadLine());
+            if (szam % 2 == 0)
+            {
+                Console.WriteLine("Páros");
+            }
+            else
+            {
+                Console.WriteLine("Páratlan");
+                
+            }
         }
     }
 }
