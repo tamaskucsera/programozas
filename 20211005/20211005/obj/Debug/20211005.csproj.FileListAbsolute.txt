@@ -1,0 +1,7 @@
+Z:\11 Évfolyam\Programozás MJ\GIT\20211005\20211005\obj\Debug\20211005.csprojAssemblyReference.cache
+Z:\11 Évfolyam\Programozás MJ\GIT\20211005\20211005\obj\Debug\20211005.csproj.CoreCompileInputs.cache
+Z:\11 Évfolyam\Programozás MJ\GIT\20211005\20211005\bin\Debug\20211005.exe.config
+Z:\11 Évfolyam\Programozás MJ\GIT\20211005\20211005\bin\Debug\20211005.exe
+Z:\11 Évfolyam\Programozás MJ\GIT\20211005\20211005\bin\Debug\20211005.pdb
+Z:\11 Évfolyam\Programozás MJ\GIT\20211005\20211005\obj\Debug\20211005.exe
+Z:\11 Évfolyam\Programozás MJ\GIT\20211005\20211005\obj\Debug\20211005.pdb
